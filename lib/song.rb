@@ -20,12 +20,10 @@ class Song
   end
   
   def self.artists
-    @@artists << @artist
     @@artists.uniq.compact
   end
   
   def self.genres
-    @@genres << @genre
     @@genres.uniq.compact
   end
   
